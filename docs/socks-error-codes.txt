@@ -1,0 +1,14 @@
+The following is a list of SOCKS error codes that a remote SOCKS server may send:
+(taken from: https://www.ibm.com/docs/en/db2/11.1?topic=message-socks-errors)
+
+01: General SOCKS server failure
+02: Connection not allowed by the rule set defined at SOCKS server
+03: Destination network is unreachable
+04: Destination host is unreachable
+05: Connection refused by the remote host
+06: TTL expired (the remote host is too far away)
+07: Command not supported. (Internal error)
+08: Address type not supported. (Internal error)
+91: The request was rejected or failed. The user or source program is not authorized to access the proxy server.
+92: The request was rejected because the SOCKS server could not contact "identd" (the IDENT server.)
+93: The request was rejected because the client program and identd reported different user identities.
